@@ -1,3 +1,6 @@
+API first template to start every API project
+
+
 Starting the server:
 
 uv run uvicorn app.main:app --reload
