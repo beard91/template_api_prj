@@ -1,6 +1,6 @@
 import logging
 
-def setup_logging(save_to_file=False, filename="app.log"):
+def setup_logging(save_to_file : bool = False, filename : str = "app.log") -> None: 
     if save_to_file: #save only into log file
         logging.basicConfig(
             level=logging.INFO,
